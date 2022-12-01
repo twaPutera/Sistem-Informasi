@@ -100,7 +100,7 @@ if (session()->missing('id')) {
                     <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
                 </div>
             </li>
-            <!-- profile -->
+            <!-- profilee -->
             <div class="user-panel mt-1 pb-1 mb-1 d-flex">
                 <div class="image">
                     <img src="{{ asset ('dist/img/user2-160x160.jpg') }}" class="img-circle elevation-2" alt="User Image">
