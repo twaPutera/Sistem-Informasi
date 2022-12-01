@@ -14,7 +14,7 @@ class AuthController extends Controller
         $login_url = 'https://sso-dev.universitaspertamina.ac.id/sso-login?redirect_url=http://localhost:803/auth';
         return \Redirect::to($login_url);
     }
-
+//sso
     public function auth(Request $request)
     {
         if(isset($_GET['username'])){
