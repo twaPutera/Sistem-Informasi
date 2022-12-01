@@ -92,7 +92,7 @@
                     </div>
                     <div class="info">
                         <a href="/UserAkun" class="d-block">{{ session('name') }}</a>
-                        <a href="/Logout">Logout</a>
+                        <a href="{{route('logout')}}">Logout</a>
                     </div>
                 </div>
 
